@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.184.0/build/three.module.js";
 import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import TWEEN from 'three/examples/jsm/libs/tween.module.js';
