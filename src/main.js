@@ -1,7 +1,7 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.184.0/build/three.module.js";
-import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import TWEEN from 'three/examples/jsm/libs/tween.module.js';
+import * as THREE from "../node_modules/three/build/three.module.js";
+import { PointerLockControls } from '../node_modules/three/examples/jsm/controls/PointerLockControls.js';
+import { GLTFLoader } from '../node_modules/three/examples/jsm/loaders/GLTFLoader.js';
+import TWEEN from '../node_modules/three/examples/jsm/libs/tween.module.js';
 
 const scene = new THREE.Scene()
 
